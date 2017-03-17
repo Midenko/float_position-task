@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+}
+
+.page {
+	width: 1000px;
+	height: 2000px;
+	font-family: 'PT Sans', sans-serif;
+	color: #333;
+	margin: 0 auto; 
+}
+
+.layer1 {
+	background-color: #ebebeb;
+	top: -20px;
+	left: -20px;
+	padding: 41px 34px 48px 34px;
+}
+
+.layer1,
+.layer2,
+.layer3 {
+	position: relative;
+	border: 2px solid #000000;
+	width: 519px;
+	height: 746px;
+}
+
+.layer2,
+.layer3 {
+	background-color: #cccccc;
+}
+
+.layer2 {
+	top: -20px;
+	left: -20px;
+}
+
+.layer3 {
+	top: 240px;
+	left: 258px;
+	margin: 0px 0px 0px 0px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 400;
+	text-align: left;
+	margin: 0px 0px 14px 0px;
+}
+
+.text {
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	clear: both;
+}
+
+.lleft {
+	margin-right: 21px;
+	float: left;
+}
+
+.rright {
+	float: right;
+	margin-bottom: 20px;
+}
+
+.left {
+	float: left;
+	margin-bottom: 14px;
+}
+
+.right {
+	float: right;
+	margin-bottom: 14px;
+}
+
+.footer__text {
+	font-size: 9px;
+	font-weight: 400;
+	text-align: center;
+	clear: both;
+	padding-top: 14px;
+}
+
+.bookmark {
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	width: 95px;
+	height: 31px;
+	float: right;
+	margin-left: -200px;
+	position: relative;
+}
+
+.bookmark3 {
+	top: 40px;
+	left: 20px;
+	background-color: #00aeef;
+}
+
+.bookmark2 {
+	top: 40px;
+	left: 50px;
+	background-color: #39b54a;
+}
+
+.bookmark1 {
+	background-color: #f68e56;
+	width: 107px;
+	left: 110px;
+	bottom: 40px;
+}
+
+.social-links {
+	border-width: 1px;
+	border-color: #362f2d;
+	border-style: solid;
+	background-color: #fbaf5d;
+	width: 87px;
+	height: 69px;
+	position: fixed;
+	bottom: 0%;
+    right: 0%;
+}
+
+.social-links__header {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+.icons {
+	margin: 0;
+	padding: 0;
+}
+
+.icons__item {
+	width: 18px;
+	height: 18px;
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	line-height: 18px;
+	font-size: 11px;
+	margin-left: 5px;
+}
+
+.facebook {
+	border-radius: 100%;
+	background-color: blue;
+}
+
+.instagram {
+	border-radius: 100%;
+	background-color: black;
+}
+
+.twitter {
+	border-radius: 100%;
+	background-color: deepskyblue;
+}
+
+.link {
+	color: white;
+}
